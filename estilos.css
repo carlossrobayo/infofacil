@@ -1,0 +1,109 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    
+  
+}
+img {
+    
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    
+    font-family: 'open sans', sans-serif;
+    
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1.6px;
+    
+}
+
+/*estilos cabezera*/
+.header {
+    
+    height: 60px;
+    
+}
+
+.header .contendor {
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo, .icon-menu {
+        margin: 5px;
+        
+    }
+
+.icon-menu {
+    
+    display: block;
+    width: 40px;
+    height: 44px;
+    font-size: 30px;
+    background: #5BB9EC ;
+    color: 	#000000;
+    text-align: center;
+    line-height: 40px;
+    border-radius: px;
+    cursor: pointer;
+    position: absolute;
+    left:1300px;
+    top:1px;
+    
+
+}
+
+
+.nav {
+    position: absolute;
+    top: 60px;
+    left: 0%;
+    width: 100%
+
+ 
+}
+
+
+.menu {
+    
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+    
+    
+
+    
+
+.menu__link {
+        
+        display: block;
+        padding:  20px;
+        background:  #5BB9EC;
+        text-decoration: none;
+        color: #fff;
+        
+         }    
+.menu__link:hover {
+    background: white;
+    color: #5BB9EC;
+    
+}
+    
+
+
+
+    
